@@ -570,7 +570,7 @@ void ParallelMesh::createFromSerialMesh(const SerialMesh &serialMesh,
 */
 #ifndef PARALLEL_MESH_READ_SERIAL_ONLY
 #include <mpi.h>
-#include <Comm.hh>
+#include "Comm.hh"
 
 
 /*
